@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>定位和居中问题</title>
+	<style>
+		/* body {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+		} */
+		.center_box {
+			width: 400px;
+			height: 200px;
+			position: absolute;
+			background-color: #ccc;
+			top: 50%;
+			left: 50%;
+			margin-top: -100px;			
+			margin-left: -200px;
+			/*overflow: hidden;*/
+		}
+		.circular {
+			width: 50px;
+			height: 50px;
+			background-color: #fc0;
+			position: absolute;
+		}
+		#lt {
+			left: 0;
+			top: 0;
+			border-bottom-right-radius: 50px;
+		}
+		#rb {
+			right: 0;
+			bottom: 0;
+			border-top-left-radius: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="center_box">
+		<div class="circular" id="lt"></div>
+		<div class="circular" id="rb"></div>
+	</div>
+</body>
+</html>
