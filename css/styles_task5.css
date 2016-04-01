@@ -1,0 +1,155 @@
+body{
+	background-color: #eee;
+	margin: 0px;
+	position: relative;
+	min-width: 570px;
+}
+
+/*  导航栏  */
+header{
+	margin: 0px;
+	padding: 0px;
+	min-height: 70px;
+	background-color: #555;
+	color: #fff;
+	width: 100%;
+/*	position: absolute;*/
+/*	top: 0px;*/
+/*	left: 0;*/
+/*	right: 0;*/
+}
+header nav{
+	margin-top: 10px;
+	padding: 0px;
+	float: right;
+/*	position: absolute;*/
+/*	top: 14%;*/
+/*	right: 0;*/
+}
+header nav ul li{
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+}
+header a:hover{
+	color: #ccc;
+}
+header img{
+	margin-left: 40px;
+	margin-top: 5px;
+}
+
+/*  文章  */
+article{
+	margin: 25px 370px 25px 15px;
+	padding: 15px;
+	background-color: #fff;
+	box-shadow: 1px 1px 4px #000;
+}
+h3{
+	color: #888;
+}
+.tags, .tags time{
+	color: #aaa;
+	font-size: 14px;
+}
+ figure{
+ 	display: inline-block;
+	margin: 10px;
+	padding: 15px;
+	text-align: center;
+	width: 100px;
+	border: solid 1px #ccc;
+} 
+article img {
+	max-width: 100%;
+}
+
+/*  表格  */
+table{
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+	border: solid #aaa;
+	border-width: 1px;
+}
+table thead{
+	background-color: #333;
+	color: #fff;
+}
+table th, table td{
+	border: solid #aaa;
+	border-width: 1px;
+	padding-left: 5px;
+}
+table .total td{
+	background-color: #bbb;
+	color: #000;
+	padding-left: 5px;
+	font-weight: bold;
+}
+
+/*  侧栏  */
+aside{
+	margin: 25px 15px;
+	padding: 15px;
+	background-color: #fff;
+	box-shadow: 1px 1px 4px #000;
+	width: 300px;
+	position: absolute;
+	top: 70px;
+	right: 0px;
+}
+aside h2{
+	border-left: solid 3px #ccc;
+	padding-left: 5px;
+	line-height: 1.5em;
+}
+aside form .label{
+	display: inline-block;
+	width: 34%;
+	text-align: right;
+	margin-right: 10px;
+	font-size: .8em;
+}
+ aside form .align .label{
+	vertical-align: top;
+} 
+aside form .tips{
+	margin-left: 34%;
+	padding-left: 15px;
+	font-size: .8em;
+	/*display: inline-block;
+	width: 100%;
+	text-align: right;*/
+}
+aside form input[name="user_email"],
+aside form input#pwd,
+aside form input#repwd {
+	width: 43%;
+	/*padding: 5px;*/
+}
+aside form input[type="submit"]{
+	width: 100%;
+	background-color: rgb(28, 99, 221);
+	line-height: 2.5em;
+	font-weight: bold;
+	font-size: 1em;
+	color: #fff;
+	border: 0;
+	border-radius: 10px;
+}
+
+/*  版权栏  */
+footer{
+	background: #000;
+	color: #fff;
+	text-align: center;
+	/*min-height: 100px;*/
+	line-height: 6em;
+	width: 100%;
+}
