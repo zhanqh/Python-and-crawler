@@ -1,0 +1,149 @@
+2017-04-16 21:27:08 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: weibo)
+2017-04-16 21:27:08 [scrapy.utils.log] INFO: Overridden settings: {'COOKIES_ENABLED': False, 'BOT_NAME': 'weibo', 'NEWSPIDER_MODULE': 'weibo.spiders', 'DOWNLOAD_DELAY': 2, 'LOG_FILE': 'weibo.log', 'SPIDER_MODULES': ['weibo.spiders']}
+2017-04-16 21:27:09 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-04-16 21:27:09 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-04-16 21:27:09 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-04-16 21:27:09 [scrapy.middleware] INFO: Enabled item pipelines:
+['weibo.pipelines.WeiboPipeline']
+2017-04-16 21:27:09 [scrapy.core.engine] INFO: Spider opened
+2017-04-16 21:27:09 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-04-16 21:27:09 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-04-16 21:27:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://m.weibo.cn/api/comments/show?id=4087456787650507&page=1001> (referer: http://m.weibo.cn/status/4087456787650507)
+2017-04-16 21:27:11 [comments] INFO: Parse function called on http://m.weibo.cn/api/comments/show?id=4087456787650507&page=1001
+2017-04-16 21:27:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://m.weibo.cn/api/comments/show?id=4087456787650507&page=1001>
+{'comment_id': 4087515759178030,
+ 'name': '菜菜爱颖晏',
+ 'reply_name': '-',
+ 'reply_text': '-',
+ 'source': '华为P8',
+ 'text': '你不知道这世界是圆的嘛？你不知道旧的不去新的不来嘛？<span class="url-icon"><img '
+         'src="//h5.sinaimg.cn/m/emoticon/icon/default/d_tanshou-dcf7d5d0d6.png" '
+         'style="width:1em;height:1em;;"></span><span class="url-icon"><img '
+         'src="//h5.sinaimg.cn/m/emoticon/icon/default/d_tanshou-dcf7d5d0d6.png" '
+         'style="width:1em;height:1em;;"></span><span class="url-icon"><img '
+         'src="//h5.sinaimg.cn/m/emoticon/icon/default/d_tanshou-dcf7d5d0d6.png" '
+         'style="width:1em;height:1em;;"></span><span class="url-icon"><img '
+         'src="//h5.sinaimg.cn/m/emoticon/icon/default/d_tanshou-dcf7d5d0d6.png" '
+         'style="width:1em;height:1em;;"></span>'}
+2017-04-16 21:27:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://m.weibo.cn/api/comments/show?id=4087456787650507&page=1001>
+{'comment_id': 4087515755064147,
+ 'name': '路萌萌喜欢郭妹花',
+ 'reply_name': 'R1ngP0r丶傅木木',
+ 'reply_text': '唯一担心的是中国员工，这个失业率也是有的<a '
+               "href='http://m.weibo.cn/n/路萌萌喜欢郭妹花'>@路萌萌喜欢郭妹花</a> <a "
+               "href='http://m.weibo.cn/n/沈大大大毛毛'>@沈大大大毛毛</a>",
+ 'source': 'Android',
+ 'text': "回复<a href='http://m.weibo.cn/n/R1ngP0r丶傅木木'>@R1ngP0r丶傅木木</a>:其实好多大超市 "
+         '你拿着乐天辞职信 很多都要的'}
+2017-04-16 21:27:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://m.weibo.cn/api/comments/show?id=4087456787650507&page=1001>
+{'comment_id': 4087515750862322,
+ 'name': 'Simoneup',
+ 'reply_name': '墨sang',
+ 'reply_text': '所以失业的中国员工可以去央视上班吗？',
+ 'source': 'iPhone 7',
+ 'text': "回复<a href='http://m.weibo.cn/n/墨sang'>@墨sang</a>:好牛逼的<span "
+         'class="url-icon"><img '
+         'src="//h5.sinaimg.cn/m/emoticon/icon/others/d_erha-0d2bea3a7d.png" '
+         'style="width:1em;height:1em;;"></span><span class="url-icon"><img '
+         'src="//h5.sinaimg.cn/m/emoticon/icon/others/d_erha-0d2bea3a7d.png" '
+         'style="width:1em;height:1em;;"></span><span class="url-icon"><img '
+         'src="//h5.sinaimg.cn/m/emoticon/icon/others/d_erha-0d2bea3a7d.png" '
+         'style="width:1em;height:1em;;"></span>'}
+2017-04-16 21:27:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://m.weibo.cn/api/comments/show?id=4087456787650507&page=1001>
+{'comment_id': 4087515747007696,
+ 'name': '不好好学习怎么吹梅西',
+ 'reply_name': '-',
+ 'reply_text': '-',
+ 'source': '红蓝军团的Android',
+ 'text': '说抵制的现在是不是又开始说安顿了'}
+2017-04-16 21:27:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://m.weibo.cn/api/comments/show?id=4087456787650507&page=1001>
+{'comment_id': 4087515739321868,
+ 'name': '拘谨FM',
+ 'reply_name': '-',
+ 'reply_text': '-',
+ 'source': '乐1s',
+ 'text': '东莞扫黄，你见哪个妓女饿死了？'}
+2017-04-16 21:27:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://m.weibo.cn/api/comments/show?id=4087456787650507&page=1001>
+{'comment_id': 4087515739063729,
+ 'name': '青空风宇',
+ 'reply_name': '-',
+ 'reply_text': '-',
+ 'source': 'vivo智能手机',
+ 'text': '停业期间必须支付雇员工资    恩怎么这么流氓呢<span class="url-icon"><img '
+         'src="//h5.sinaimg.cn/m/emoticon/icon/default/d_xiaoku-7430606cb7.png" '
+         'style="width:1em;height:1em;;"></span><span class="url-icon"><img '
+         'src="//h5.sinaimg.cn/m/emoticon/icon/default/d_xiaoku-7430606cb7.png" '
+         'style="width:1em;height:1em;;"></span>'}
+2017-04-16 21:27:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://m.weibo.cn/api/comments/show?id=4087456787650507&page=1001>
+{'comment_id': 4087515735121871,
+ 'name': '甜盐加兴饼干',
+ 'reply_name': '-',
+ 'reply_text': '-',
+ 'source': '甜兴Android',
+ 'text': '不懂为啥很多中国人认为中国离了韩国就要完了呢？文化是这样，经济也是这样，韩国对中国来说真的有那么重要吗？乐天走了，大爷大妈是活不了了吗？乐天的员工就只会在乐天工作，出了乐天就是啥都不能干的人吗？自从有了微博，我才知道，韩国，太特么重要了！中国真的不能离开他！不然中国就完了！<span '
+         'class="url-icon"><img '
+         'src="//h5.sinaimg.cn/m/emoticon/icon/default/d_hehe-4f9f713058.png" '
+         'style="width:1em;height:1em;;"></span>'}
+2017-04-16 21:27:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://m.weibo.cn/api/comments/show?id=4087456787650507&page=1001>
+{'comment_id': 4087515730576121,
+ 'name': '好吧我是球球',
+ 'reply_name': '凯乾福',
+ 'reply_text': '小粉红，“国家会安排下岗职工的”。虽然国家并没有表这个态。',
+ 'source': '三星android智能手机',
+ 'text': '回复<a '
+         "href='http://m.weibo.cn/n/凯乾福'>@凯乾福</a>:小粉红可以明确告诉你，他们不会失业，你根本就不知道零售卖场的开业速度，这些员工分分钟可以被其他卖场吸收掉，为什么本小粉红知道，因为本小粉红是零售企业采购，其中的道道知道太多，所以告诉你，放心爱国，不必杞人忧天，如果你不想爱国也不必这时候来搏出位"}
+2017-04-16 21:27:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://m.weibo.cn/api/comments/show?id=4087456787650507&page=1001>
+{'comment_id': 4087515722512186,
+ 'name': '一人成光miss',
+ 'reply_name': '羞涩的起哄架秧子星人',
+ 'reply_text': '算过有多少人失业么？影响多少下游供货商？直接或间接影响多少家庭么？国家面前不就业<span '
+               'class="url-icon"><img '
+               'src="//h5.sinaimg.cn/m/emoticon/icon/default/d_tanshou-dcf7d5d0d6.png" '
+               'style="width:1em;height:1em;;"></span>',
+ 'source': 'iPhone 7',
+ 'text': "回复<a href='http://m.weibo.cn/n/羞涩的起哄架秧子星人'>@羞涩的起哄架秧子星人</a>:笨死你了"}
+2017-04-16 21:27:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://m.weibo.cn/api/comments/show?id=4087456787650507&page=1001>
+{'comment_id': 4087515721709189,
+ 'name': '老奇7087',
+ 'reply_name': '-',
+ 'reply_text': '-',
+ 'source': '小米手机',
+ 'text': '国家犯错了应该惩罚国家～而不是拿对方的公司出气～这是国家成面的博弈～比如美国部署捣蛋至东欧～普京就部署至家里宁～苏联搞捣蛋至古巴～美国就紧急状态～对方明显是冲着你这国来的～去报复对方一个公司～不对等'}
+2017-04-16 21:27:11 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-04-16 21:27:11 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 389,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 3314,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 4, 16, 13, 27, 11, 344880),
+ 'item_scraped_count': 10,
+ 'log_count/DEBUG': 12,
+ 'log_count/INFO': 8,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2017, 4, 16, 13, 27, 9, 84596)}
+2017-04-16 21:27:11 [scrapy.core.engine] INFO: Spider closed (finished)
