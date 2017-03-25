@@ -1,0 +1,76 @@
+[INFO  - 2017-05-31T12:54:00.831Z] GhostDriver - Main - running on port 65339
+[INFO  - 2017-05-31T12:54:00.945Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":false,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36","webSecurityEnabled":true}
+[INFO  - 2017-05-31T12:54:00.945Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.customHeaders:  - {}
+[INFO  - 2017-05-31T12:54:00.945Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"}
+[INFO  - 2017-05-31T12:54:00.945Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 37df12c0-4600-11e7-85b0-51c70aa92890
+[ERROR - 2017-05-31T12:54:06.754Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.onError - msg: kg/search-suggest/6.2.11/index is not loaded! can not find module in path : https://g.alicdn.com/kg/??search-suggest/6.2.11/index-min.js,search-suggest/6.2.11/plugin/history-min.js,search-suggest/6.2.11/plugin/cloud-min.js,search-suggest/6.2.11/plugin/tab-min.js,search-suggest/6.2.11/plugin/history-magic-min.js,search-suggest/6.2.11/plugin/imgsearch-min.js,search-suggest/6.2.11/theme/pailitao/index-min.js
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-31T12:54:06.754Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.0.1/p/index/index.js,kg/tb-nav/2.3.2/index-min.js,secdev/sufei_data/3.0.8/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-31T12:54:06.754Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.onError - msg: kg/search-suggest/6.2.11/plugin/history is not loaded! can not find module in path : https://g.alicdn.com/kg/??search-suggest/6.2.11/index-min.js,search-suggest/6.2.11/plugin/history-min.js,search-suggest/6.2.11/plugin/cloud-min.js,search-suggest/6.2.11/plugin/tab-min.js,search-suggest/6.2.11/plugin/history-magic-min.js,search-suggest/6.2.11/plugin/imgsearch-min.js,search-suggest/6.2.11/theme/pailitao/index-min.js
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-31T12:54:06.754Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.0.1/p/index/index.js,kg/tb-nav/2.3.2/index-min.js,secdev/sufei_data/3.0.8/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-31T12:54:06.754Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.onError - msg: kg/search-suggest/6.2.11/plugin/cloud is not loaded! can not find module in path : https://g.alicdn.com/kg/??search-suggest/6.2.11/index-min.js,search-suggest/6.2.11/plugin/history-min.js,search-suggest/6.2.11/plugin/cloud-min.js,search-suggest/6.2.11/plugin/tab-min.js,search-suggest/6.2.11/plugin/history-magic-min.js,search-suggest/6.2.11/plugin/imgsearch-min.js,search-suggest/6.2.11/theme/pailitao/index-min.js
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-31T12:54:06.754Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.0.1/p/index/index.js,kg/tb-nav/2.3.2/index-min.js,secdev/sufei_data/3.0.8/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-31T12:54:06.754Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.onError - msg: kg/search-suggest/6.2.11/plugin/tab is not loaded! can not find module in path : https://g.alicdn.com/kg/??search-suggest/6.2.11/index-min.js,search-suggest/6.2.11/plugin/history-min.js,search-suggest/6.2.11/plugin/cloud-min.js,search-suggest/6.2.11/plugin/tab-min.js,search-suggest/6.2.11/plugin/history-magic-min.js,search-suggest/6.2.11/plugin/imgsearch-min.js,search-suggest/6.2.11/theme/pailitao/index-min.js
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-31T12:54:06.754Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.0.1/p/index/index.js,kg/tb-nav/2.3.2/index-min.js,secdev/sufei_data/3.0.8/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-31T12:54:06.754Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.onError - msg: kg/search-suggest/6.2.11/plugin/history-magic is not loaded! can not find module in path : https://g.alicdn.com/kg/??search-suggest/6.2.11/index-min.js,search-suggest/6.2.11/plugin/history-min.js,search-suggest/6.2.11/plugin/cloud-min.js,search-suggest/6.2.11/plugin/tab-min.js,search-suggest/6.2.11/plugin/history-magic-min.js,search-suggest/6.2.11/plugin/imgsearch-min.js,search-suggest/6.2.11/theme/pailitao/index-min.js
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-31T12:54:06.755Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.0.1/p/index/index.js,kg/tb-nav/2.3.2/index-min.js,secdev/sufei_data/3.0.8/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-31T12:54:06.755Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.onError - msg: kg/search-suggest/6.2.11/plugin/imgsearch is not loaded! can not find module in path : https://g.alicdn.com/kg/??search-suggest/6.2.11/index-min.js,search-suggest/6.2.11/plugin/history-min.js,search-suggest/6.2.11/plugin/cloud-min.js,search-suggest/6.2.11/plugin/tab-min.js,search-suggest/6.2.11/plugin/history-magic-min.js,search-suggest/6.2.11/plugin/imgsearch-min.js,search-suggest/6.2.11/theme/pailitao/index-min.js
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-31T12:54:06.755Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.0.1/p/index/index.js,kg/tb-nav/2.3.2/index-min.js,secdev/sufei_data/3.0.8/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-31T12:54:06.755Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.onError - msg: kg/search-suggest/6.2.11/theme/pailitao/index is not loaded! can not find module in path : https://g.alicdn.com/kg/??search-suggest/6.2.11/index-min.js,search-suggest/6.2.11/plugin/history-min.js,search-suggest/6.2.11/plugin/cloud-min.js,search-suggest/6.2.11/plugin/tab-min.js,search-suggest/6.2.11/plugin/history-magic-min.js,search-suggest/6.2.11/plugin/imgsearch-min.js,search-suggest/6.2.11/theme/pailitao/index-min.js
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-31T12:54:06.755Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.onError - stack:
+  (anonymous function) (https://g.alicdn.com/??kissy/k/6.2.4/seed-min.js,kg/global-util/1.0.5/index-min.js,tb/tracker/4.0.1/p/index/index.js,kg/tb-nav/2.3.2/index-min.js,secdev/sufei_data/3.0.8/index.js:5)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-31T12:55:15.522Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.onError - msg: ReferenceError: Can't find variable: jsonp2656
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-31T12:55:15.522Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.onError - stack:
+  global code (https://s.taobao.com/search?data-key=s&data-value=572&ajax=true&_ksTS=1496235303623_2655&callback=jsonp2656&q=%E5%A5%A5%E8%BF%AA&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.50862.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170531&bcoffset=3&ntoffset=3&p4ppushleft=1%2C48&s=528:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-31T12:55:46.846Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.onError - msg: ReferenceError: Can't find variable: jsonp3769
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-31T12:55:46.846Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.onError - stack:
+  global code (https://s.taobao.com/search?data-key=s&data-value=880&ajax=true&_ksTS=1496235336751_3768&callback=jsonp3769&q=%E5%A5%A5%E8%BF%AA&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.50862.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170531&bcoffset=3&ntoffset=3&p4ppushleft=1%2C48&s=836:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-31T12:56:30.859Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.onError - msg: ReferenceError: Can't find variable: jsonp5025
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-31T12:56:30.859Z] Session [37df12c0-4600-11e7-85b0-51c70aa92890] - page.onError - stack:
+  global code (https://s.taobao.com/search?data-key=s&data-value=1232&ajax=true&_ksTS=1496235379212_5024&callback=jsonp5025&q=%E5%A5%A5%E8%BF%AA&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.50862.201856-taobao-item.2&ie=utf8&initiative_id=tbindexz_20170531&bcoffset=3&ntoffset=3&p4ppushleft=1%2C48&s=1188:3)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2017-05-31T12:59:00.929Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
